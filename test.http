@@ -1,0 +1,18 @@
+get http://localhost:5000/api/users/find/6264adf8d2457ce745766a0b
+Content-Type: application/json
+token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNjRhZGY4ZDI0NTdjZTc0NTc2NmEwYiIsImlzQWRtaW4iOmZhbHNlLCJpYXQiOjE2NTA4NTA0NzUsImV4cCI6MTY1MTEwOTY3NX0.0B59mXnv0TwC5STiHxbxph1h7vmQ17ifr7D40CVRW7Q
+
+{
+    "username": "pjulius",
+    "password": "12345"
+};
+
+
+# post http://localhost:5000/api/auth/register
+# Content-Type: application/json
+
+# {
+#     "username": "jpatrick",
+#     "email": "jpatrickpaja@gmail.com",
+#     "password": "12345"
+# };
